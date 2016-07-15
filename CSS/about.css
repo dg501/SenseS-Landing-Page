@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    color: black;
+}
+
+@font-face {
+    font-family: Futura;
+    src: url(Futura.ttf);
+}
+
+@font-face {
+    font-family: Futura-Bold;
+    src: url(Futura-Bold.ttf);
+}
+
+p {
+    line-height: 25px;
+}
+
+.overviewClass {
+    background-color: #F1F2F2;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overviewClass p {
+    font-family: Futura;
+    width: 95%;
+    margin-left: 10px;
+}
+
+.overviewClass h2 {
+    font-family: Futura-Bold;
+    font-size: 125%;
+    margin-left: 10px;
+}
+
+.overviewClass img {
+    margin-right: 12.5px;
+    margin-left: auto;
+    margin-top: -40px;
+}
+
+#overviewShift {
+    display: flex;
+}
+
+.theTeamClass {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
+.theTeamClass p {
+    font-family: Futura;
+    color: grey;
+    margin-left: 75px;
+    margin-right: 12.5px;
+}
+
+.theTeamClass h2 {
+    font-family: Futura-Bold;
+    color: grey;
+    font-size: 125%;
+    margin-right: 12.5px;
+}
+
+.theTeamClass img {
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: -40px;
+}
+
+#teamShift {
+    display: flex;
+}
+
+#branding {
+    font-size: 75%;
+    float: right;
+    margin-right: 8px;
+    color: white
+}
+
+#banner {
+    height: 200px;
+}

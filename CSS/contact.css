@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Futura;
+    src: url(Futura.ttf);
+}
+
+@font-face {
+    font-family: Futura-Bold;
+    src: url(Futura-Bold.ttf);
+}
+
+.contactHead {
+    background-color: #F1F2F2;
+}
+
+.contactHead h2 {
+    padding: 20px;
+    font-family: Futura-Bold;
+    color: black;
+    font-size: 125%;
+}
+
+.contactHead p {
+    margin-top: -15px;
+    color: black;
+    padding: 20px;
+    line-height: 30px;
+    font-size: 125%;
+}
+
+.contactClass {
+    background-color: white;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.contactClass form {
+    font-family: Futura;
+    color:  black;
+    padding: 20px;
+}
+
+.contactClass input {
+    color: black;
+    line-height: 25px;
+    font-size: 25px;
+    font-family: Futura;
+    padding-left: 5px;
+}
+
+.contactClass textarea {
+    color: black;
+    font-family: Futura;
+    font-size: 25px;
+    line-height: 25px;
+    border: solid 1px lightgrey;
+    padding-left: 5px;
+}
+
+.contactClass span {
+    color: red;
+}
+
+.contactClass input, .contactClass textarea {
+    font-size: 90%;
+}
+
+#messageForm {
+    width: 300px;
+    height: 125px;
+}
+
+#fullName {
+    width: 15%;
+}
+
+#emailAddress {
+    width: 15%;
+}
+
+#submitButton {
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background: #F1F2F2;
+}
+
+#submitButton:hover {
+    opacity: 0.75;
+}
+
+#submitButton:focus {
+    outline: 0;
+}
+
+#banner {
+    height: 200px;
+}

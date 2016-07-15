@@ -1,0 +1,311 @@
+
+@font-face {
+    font-family: Futura;
+    src: url(Futura.ttf);
+}
+
+
+@font-face {
+    font-family: Futura-Bold;
+    src: url(Futura-Bold.ttf);
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Futura;
+}
+
+body {
+
+}
+
+footer {
+    display: flex;
+    height: 205px;
+    background-color: #51B9DE;
+    font-family: Futura;
+}
+
+footer p {
+    margin-top: 12.5px;
+}
+
+.deviceDiv img, .researchDiv img, .testingDiv img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+div a {
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.head {
+    background-repeat: no-repeat;
+    height: 100px;
+    display: flex;
+    background-color: #51B9DE;
+    color: white;
+}
+
+.video {
+    font-family: Futura;
+    
+    background-repeat: no-repeat;
+    height: inherit;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+    margin-right: 20px;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 8px;
+    margin-top: 20px;
+    margin-left: -9px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #40A9CD;
+}
+
+.deviceDiv h2, .researchDiv h2, .testingDiv h2 {
+    font-family: Futura-Bold;
+    color: grey;
+    font-size: 120%;
+}
+
+.deviceDiv {
+    font-family: Futura;
+
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 33%;
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.deviceDiv p, .deviceDiv a {
+    font-family: Futura;
+    color: grey;
+    line-height: 25px;
+    margin: 2px;
+}
+
+.researchDiv {
+    font-family: Futura;
+    
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 33%;
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.researchDiv p, .researchDiv a {
+    font-family: Futura;
+    color: grey;
+    line-height: 25px;
+    margin: 2px;
+}
+
+.testingDiv {
+    font-family: Futura;
+    
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 33%;
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.testingDiv p, .testingDiv a {
+    font-family: Futura;
+    color: grey;
+    line-height: 25px;
+    margin: 2px;
+}
+
+.bodyDiv {
+    display: flex;
+    padding: 35px;
+    background-color: white;
+}
+
+.sensesInfo {
+    font-family: Futura;
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    background-color: #F1F2F2;
+}
+
+.sensesInfo h3 {
+    font-family: Futura-Bold;
+    font-size: 150%;
+    color: black;
+}
+
+.sensesInfo p {
+    font-size: 125%;
+    font-family: Futura;
+    color: black;
+}
+
+* html .clearfix {
+    height: 1%;
+    overflow: visible;
+}
+
+#headDiv {
+    margin-left: 20px;
+    width: 60%
+}
+
+#buttonDiv {
+    flex: 1;
+    margin-top: 40px;
+}
+
+#aboutButton {
+    font-family: Futura-Bold;
+    font-size: 100%;
+}
+
+#contactButton {
+    font-family: Futura-Bold;
+    font-size: 100%;
+}
+
+video {
+    align-self: center;
+}
+
+#submit {
+
+}
+
+#footerDiv {
+    font-family: Futura;
+    padding: 35px;
+}
+
+#socialSection {
+    width: 33%;
+    margin-left: 2px;
+    font-family: Futura;
+    padding: 5px;
+}
+
+#socialSection p {
+    text-decoration: none;
+    float: left;
+    display: flex;
+}
+
+#socialSection h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: Futura-Bold;
+    color: white;
+}
+
+#socialSection img {
+    width: 35px;
+    padding: 5px;
+    display: flex;
+    border: 0;
+    box-shadow: 0;
+}
+
+#socialSection img:hover {
+    opacity: 0.75;
+}
+
+#contactSection {
+    font-family: Futura;
+    width: 33%;
+    padding: 5px;
+}
+
+#contactSection p {
+    color: white;
+}
+
+#contactSection a  {
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+#contactSection a:hover {
+    text-decoration: underline;
+    line-height: 20px;
+}
+
+#contactSection h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: Futura-Bold;
+    color: white;
+}
+
+#quickLinks {
+    font-family: Futura;
+    width: 33%;
+    padding: 5px;
+}
+
+#quickLinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+#quickLinks h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: Futura-Bold;
+    color: white;
+}
+
+#quickLinks a:hover {
+    text-decoration: underline;
+}
+
+#branding {
+    font-size: 75%;
+    float: right;
+    margin-right: 8px;
+    color: white
+}
