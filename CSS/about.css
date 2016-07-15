@@ -37,7 +37,7 @@ p {
 }
 
 .overviewClass img {
-    margin-right: 12.5px;
+    margin-right: 12px;
     margin-left: auto;
     margin-top: -40px;
 }
@@ -57,14 +57,14 @@ p {
     font-family: Futura;
     color: grey;
     margin-left: 75px;
-    margin-right: 12.5px;
+    margin-right: 12px;
 }
 
 .theTeamClass h2 {
     font-family: Futura-Bold;
     color: grey;
     font-size: 125%;
-    margin-right: 12.5px;
+    margin-right: 12px;
 }
 
 .theTeamClass img {
@@ -77,11 +77,72 @@ p {
     display: flex;
 }
 
+.userTestingClass {
+    background-color: #F1F2F2;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.userTestingClass p {
+    font-family: Futura;
+    width: 95%;
+    margin-left: 10px;
+}
+
+.userTestingClass h2 {
+    font-family: Futura-Bold;
+    font-size: 125%;
+    margin-left: 10px;
+}
+
+.userTestingClass img {
+    margin-right: 12px;
+    margin-left: auto;
+    margin-top: -40px;
+}
+
+#userTestingShift {
+    display: flex;
+}
+
+.technologyClass {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
+.technologyClass p {
+    font-family: Futura;
+    color: grey;
+    margin-left: 75px;
+    margin-right: 12px;
+}
+
+.technologyClass h2 {
+    font-family: Futura-Bold;
+    color: grey;
+    font-size: 125%;
+    margin-right: 12px;
+}
+
+.technologyClass img {
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+#techShift {
+    display: flex;
+}
+
 #branding {
     font-size: 75%;
     float: right;
-    margin-right: 8px;
-    color: white
+    margin-top: -10px;
+    margin-right: -1px;
 }
 
 #banner {
