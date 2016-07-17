@@ -1,3 +1,13 @@
+$(document).ready(function(){
+   $('.videoMessage div').hover(
+        function() {
+            $(this).addClass('messageHover');
+        },
+        function() {
+            $(this).removeClass('messageHover');
+        }
+   );
+});
 
 function validateForm() {
     if (!checkName() || !checkEmail()) {
