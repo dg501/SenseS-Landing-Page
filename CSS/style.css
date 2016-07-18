@@ -70,14 +70,14 @@ div a {
 }
 
 .videoMessage div { /*container for message text*/
-    background-color: green;
+    background-color: #51B9DE;
     border-radius: 10px;
     margin-left: 10px;
 }
 
 .videoMessage p, .videoMessage a {
     font-size: 25px;
-    color: #51B9DE;
+    color: white;
     font-family: Futura-Bold;
     text-decoration: none;
     top: 50%;
@@ -86,7 +86,7 @@ div a {
 }
 
 .messageHover {
-    background-color: /*#51B9DE*/ red;
+    background-color: red;
     color: white;
 }
 

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-   $('.videoMessage div').hover(
+   $('.videoMessage a div').hover(
         function() {
             $(this).addClass('messageHover');
         },
