@@ -44,12 +44,20 @@
 </div>
 
 <div class="contactClass">
-        <form action="myService" id="userForm">
-            <input type="text" id="fullName" placeholder="Full Name" />   <span id="nameError"></span> <br /><br />
+        <form action="MAILTO:leila.alem@thoughtworks.com" id="userForm" enctype="text/plain">
+            <input type="text" id="fullName" placeholder="Full Name" name="full name" />   <span id="nameError"></span> <br /><br />
 
-            <input type="text" id="emailAddress" placeholder="Email Address" />   <span id="emailError"></span> <br /><br />
+            <input type="text" id="emailAddress" placeholder="Email Address" name="email" />   <span id="emailError"></span> <br /><br />
 
-            <textarea name="text1" cols="58" rows="10" wrap="hard" maxlength="250" placeholder="Message" id="messageForm"></textarea> <br /><br />
+            <select name="position">
+                <option value="dev">Developer</option>
+                <option value="ba">Business Analyst</option>
+                <option value="statistician">Statistician</option>
+                <option value="dataAnalyst">Data Analyst</option>
+                <option value="clientPrincipal">Client Principal</option>
+            </select> <br /><br />
+
+            <textarea name="message" cols="58" rows="10" wrap="hard" maxlength="250" placeholder="Message" id="messageForm"></textarea> <br /><br />
 
             <input type="submit" id="submitButton" value="Submit" onclick="return validateForm()"/>
         </form>
@@ -84,15 +92,17 @@
 
     <div id="contactSection">
         <h3>Contact Us:</h3>
-        <p>Email:&nbsp;&nbsp;<a href="mailto:leila.alem@thoughtworks.com">leila.alem@thoughtworks.com</a>
-            <br />Telephone:&nbsp;&nbsp;+61 4 37767751</p>
-        <br /><br /> <br /><br /><br />
-        <p id="branding">ThoughtWorks Pty. Ltd. &copy; 2016</p>
+        <p>Leila Alem<br />Email:&nbsp;&nbsp;<a href="mailto:leila.alem@thoughtworks.com">leila.alem@thoughtworks.com</a>
+            <br />Telephone:&nbsp;&nbsp;+61 437 767 751</p>
 
-        <br />
+        <p>Will Tan<br />Email:&nbsp;&nbsp;<a href="mailto:wtan@thoughtworks.com">wtan@thoughtworks.com</a>
+            <br />Telephone:&nbsp;&nbsp;+61 430 765 887</p>         <span id="branding">ThoughtWorks Pty. Ltd. &copy; 2016</span>
+
+
     </div>
 
-    <br /><br />
+    <br />
+</footer>
 
 </body>
 
