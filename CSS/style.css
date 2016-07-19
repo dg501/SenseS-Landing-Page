@@ -30,8 +30,8 @@ footer p {
 }
 
 .deviceDiv img, .researchDiv img, .testingDiv img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -52,33 +52,68 @@ div a {
     color: white;
 }
 
-#videoBanner { /*container of video and message*/
-    height: 450px;
+.video {
+    font-family: Futura;
+    background-repeat: no-repeat;
+    height: 550px;
+    background-color: white;
+}
+
+#videoContainer video {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#buttonLinkContainer {
     display: flex;
+}
+
+
+#videoBanner { /*container of video and message*/
+    height: 550px;
     background-color: white;
 }
 
-#videoMessage { /*container for message text block*/
-    width: 30%;
-    height: 400px;
-    margin: auto;
+#collabMessage { /*container for message text block*/
+    width: 40%;
+    padding: 5px;
+    margin-left: 100px;
     background-color: white;
 }
 
-#videoMessage div { /*container for message text*/
+#collabMessage div { /*container for message text*/
     background-color: #51B9DE;
     border-radius: 10px;
     margin-left: 10px;
 }
 
-#videoMessage p, #videoMessage a {
+#collabMessage p, #collabMessage a {
     font-size: 25px;
     color: white;
     font-family: Futura-Bold;
     text-decoration: none;
-    margin-top: 50%;
     text-align: center;
-    vertical-align: center;
+}
+
+#otherMessage {
+    width: 40%;
+    padding: 5px;
+    margin-left: 50px;
+    background-color: white;
+}
+
+#otherMessage div { /*container for message text*/
+    background-color: #51B9DE;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#otherMessage p, #otherMessage a {
+    font-size: 25px;
+    color: white;
+    font-family: Futura-Bold;
+    text-decoration: none;
+    text-align: center;
 }
 
 .messageHover {
@@ -86,19 +121,9 @@ div a {
     border-radius: 10px;
 }
 
-#video { /*container for video*/
-    width: 70%;
-    height: 400px;
-    margin: auto;
-    background-color: white;
+.messageUnderline {
+    text-decoration: underline;
 }
-
-#video video {
-    width: 100%;
-    height: 100%;
-}
-
-
 
 ul {
     list-style-type: none;
@@ -191,6 +216,7 @@ li a:hover {
     display: flex;
     padding: 35px;
     background-color: white;
+    height: 445px;
 }
 
 .sensesInfo {
@@ -223,7 +249,11 @@ li a:hover {
 
 #headDiv {
     margin-left: 20px;
-    width: 60%
+    width: 30%
+}
+
+#twLogo {
+    margin-top: -5px;
 }
 
 #buttonDiv {

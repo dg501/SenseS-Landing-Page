@@ -1,5 +1,5 @@
 $(document).ready(function(){
-   $('#videoMessage div p').hover(
+   $('#collabMessage div p').hover(
         function() {
             $(this).addClass('messageHover');
         },
@@ -7,6 +7,17 @@ $(document).ready(function(){
             $(this).removeClass('messageHover');
         }
    );
+});
+
+$(document).ready(function(){
+    $('#otherMessage div p').hover(
+        function() {
+            $(this).addClass('messageHover');
+        },
+        function() {
+            $(this).removeClass('messageHover');
+        }
+    );
 });
 
 $(document).ready(function() {
