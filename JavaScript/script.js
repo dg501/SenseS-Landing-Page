@@ -1,5 +1,5 @@
 $(document).ready(function(){
-   $('.videoMessage a div').hover(
+   $('#videoMessage div p').hover(
         function() {
             $(this).addClass('messageHover');
         },
@@ -8,6 +8,11 @@ $(document).ready(function(){
         }
    );
 });
+
+$(document).ready(function() {
+   $('#rolesMenu').accordion();
+});
+
 
 function validateForm() {
     if (!checkName() || !checkEmail()) {
