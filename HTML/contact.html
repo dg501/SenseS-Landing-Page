@@ -77,23 +77,23 @@
 </div>
 
 <div class="contactClass">
-        <form action="MAILTO:leila.alem@thoughtworks.com" id="userForm" enctype="text/plain">
-            <input type="text" id="fullName" placeholder="Full Name" name="full name" />   <span id="nameError"></span> <br /><br />
+    <form action="MAILTO:leila.alem@thoughtworks.com,wtan@thoughtworks.com" method="post" id="userForm" name="contactForm">
+        <input type="text" id="fullName" placeholder="Full Name" name="full name" />   <span id="nameError"></span> <br /><br />
 
-            <input type="text" id="emailAddress" placeholder="Email Address" name="email" />   <span id="emailError"></span> <br /><br />
+        <input type="text" id="emailAddress" placeholder="Email Address" name="email" />   <span id="emailError"></span> <br /><br />
 
-            <select name="position">
-                <option value="dev">Developer</option>
-                <option value="ba">Business Analyst</option>
-                <option value="statistician">Statistician</option>
-                <option value="dataAnalyst">Data Analyst</option>
-                <option value="clientPrincipal">Client Principal</option>
-            </select> <br /><br />
+        <select name="position">
+            <option value="dev" name="developer">Developer</option>
+            <option value="ba" name="businessAnalyst">Business Analyst</option>
+            <option value="statsMaths" name="statistician">Statistician</option>
+            <option value="da" name="dataAnalyst">Data Analyst</option>
+            <option value="cp" name="clientPrincipal">Client Principal</option>
+        </select> <br /><br />
 
-            <textarea name="message" cols="58" rows="10" wrap="hard" maxlength="250" placeholder="Message" id="messageForm"></textarea> <br /><br />
+        <textarea name="message" cols="58" rows="10" wrap="hard" maxlength="250" placeholder="Message" id="messageForm"></textarea> <br /><br />
 
-            <input type="submit" id="submitButton" value="Submit" onclick="return validateForm()"/>
-        </form>
+        <input type="submit" id="submitButton" value="Submit" onclick="return validateForm()"/>
+    </form>
 </div>
 
 <footer>
