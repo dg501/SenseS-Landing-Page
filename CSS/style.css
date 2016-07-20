@@ -95,20 +95,20 @@ div a {
     text-align: center;
 }
 
-#otherMessage {
+#researchMessage {
     width: 40%;
     padding: 5px;
     margin-left: 50px;
     background-color: white;
 }
 
-#otherMessage div { /*container for message text*/
+#researchMessage div { /*container for message text*/
     background-color: #51B9DE;
     border-radius: 10px;
     margin-left: 10px;
 }
 
-#otherMessage p, #otherMessage a {
+#researchMessage p, #researchMessage a {
     font-size: 25px;
     color: white;
     font-family: Futura-Bold;
@@ -240,6 +240,10 @@ li a:hover {
     margin-left: 100px;
     margin-right: 100px;
     color: black;
+}
+
+.sensesInfo sup a {
+    font-size: 30%;
 }
 
 * html .clearfix {

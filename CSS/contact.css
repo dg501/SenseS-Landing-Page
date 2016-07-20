@@ -21,17 +21,25 @@
     margin: auto;
     font-size: 125%;
     line-height: 30px;
+    margin-top: 20px;
+    width: 50%;
 }
 
 #contactOverview h2 {
-    padding: 20px;
     font-family: Futura-Bold, sans-serif;
+    margin-bottom: 15px;
     color: black;
     font-size: 125%;
 }
 
-#contactOverview {
-    width: 50%;
+#contactOverview p a {
+    text-decoration: none;
+    font-size: 100%;
+    color: black;
+}
+
+#dev, #ba, #statsMaths, #da, #cp {
+    display: none;
 }
 
 #menuContainer {
@@ -43,15 +51,15 @@
     margin: auto;
     position: relative;
     float: right;
-    right: 50px;
-    width: 60%;
-    border: solid 2px black;
+    margin-right: 45px;
+    width: 45%;
     background-color: #F1F2F2;
 }
 
+
+
 #rolesMenu div {
-    width: 50%;
-    height: 150px;
+    height: 50px;
     background-color: #F1F2F2;
 }
 
@@ -60,6 +68,12 @@
     font-weight: bold;
     line-height: 25px;
     background-color: #F1F2F2;
+}
+
+#menuHeader {
+    font-family: Futura-Bold;
+    font-size: 125%;
+    margin-left: 310px;
 }
 
 .contactClass {

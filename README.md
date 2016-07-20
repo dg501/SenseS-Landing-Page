@@ -1,1 +1,3 @@
-# SenseS-Landing-Page
+# SenseS Landing Page
+
+ThoughtWorks Pty. Ltd. (C)

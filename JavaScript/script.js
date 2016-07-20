@@ -10,7 +10,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $('#otherMessage div p').hover(
+    $('#researchMessage div p').hover(
         function() {
             $(this).addClass('messageHover');
         },
@@ -21,7 +21,10 @@ $(document).ready(function(){
 });
 
 $(document).ready(function() {
-   $('#rolesMenu').accordion();
+   $('#rolesMenu').accordion({
+       active: false,
+       collapsible: true
+   });
 });
 
 
