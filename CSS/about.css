@@ -13,8 +13,9 @@
     src: url(Futura-Bold.ttf);
 }
 
-p {
-    line-height: 25px;
+#contactButton, #aboutButton {
+    font-family: Futura-Bold;
+    font-size: 105%;
 }
 
 .overviewClass {
@@ -51,6 +52,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     text-align: right;
+    text-align: center;
 }
 
 .theTeamClass p {
@@ -58,12 +60,13 @@ p {
     color: grey;
     margin-left: 40px;
     margin-right: 12px;
+    font-size: 125%;
 }
 
 .theTeamClass h2 {
     font-family: Futura-Bold;
     color: grey;
-    font-size: 125%;
+    font-size: 150%;
     margin-right: 12px;
 }
 
@@ -77,32 +80,32 @@ p {
     display: flex;
 }
 
-.userTestingClass {
+.benefitsApplicationsClass {
     background-color: #F1F2F2;
     color: black;
     margin-left: auto;
     margin-right: auto;
 }
 
-.userTestingClass p {
+.benefitsApplicationsClass p {
     font-family: Futura;
     width: 95%;
     margin-left: 10px;
 }
 
-.userTestingClass h2 {
+.benefitsApplicationsClass h2 {
     font-family: Futura-Bold;
     font-size: 125%;
     margin-left: 10px;
 }
 
-.userTestingClass img {
+.benefitsApplicationsClass img {
     margin-right: 12px;
     margin-left: auto;
     margin-top: -40px;
 }
 
-#userTestingShift {
+#benefitsApplicationsShift {
     display: flex;
 }
 
@@ -152,5 +155,5 @@ p {
 
 #banner {
     width: 100%;
-    height: 200px;
+    height: 750px;
 }

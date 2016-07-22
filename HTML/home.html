@@ -27,14 +27,17 @@
 
     <div id="twLogo">
         <a href="http://www.thoughtworks.com">
-            <img src="../Drawables/thoughtworks.png" alt="twLogo.png" width="425" height="125" />
+            <img src="../Drawables/thoughtworks.png" alt="twLogo.png" width="170" height="50" />
         </a>
     </div>
 
     <div id="buttonDiv">
         <ul>
-            <li><a href="contact.html" id="contactButton">Contact</a></li>
-            <li><a href="about.html" id="aboutButton">About</a></li>
+            <li><a href="#processSection" id="processButton">Process</a></li>
+            <li><a href="#bodyBack" id="applicationsButton">Applications</a></li>
+            <li><a href="#benefitsSection" id="benefitsButton">Benefits</a></li>
+            <li><a href="#technologySection" id="technologyButton">Technology</a></li>
+            <li><a href="#overviewSection" id="overviewButton">Overview</a></li>
         </ul>
     </div>
 </div>
@@ -42,101 +45,144 @@
 <div class="video">
     <div id="videoContainer">
         <video controls="controls" width="100%" height="450">
-            <source src="../Drawables/testVideo.mp4" type="video/mp4"/>
+            <source src="../Drawables/Senses-old.mp4" type="video/mp4"/>
             Video is not supported.
         </video>
     </div>
+</div>
 
-    <div id="buttonLinkContainer">
-        <div id="collabMessage">
-            <div>
-                <a href="contact.html"><p>Interested in<br />collaborating with us?</p></a>
-            </div>
-        </div>
+<div class="sensesInfo" id="overviewSection">
+    <br />
 
-        <div id="researchMessage">
-            <div>
-                <a href="about.html"><p>Our<br />research</p></a>
-            </div>
-        </div>
+    <h3>Overview of SenseS</h3> <br />
+    <p>People under high cognitive load are at risk of taking mental shortcuts,
+        which can lead to poor decisions being made. SenseS combines ThoughtWorks'
+        capabilities in IoT, Agile Analytics and Experience Design to  explore ways
+        of helping people better understand the affect their mental load has on their
+        performance.</p>
+    <br />
+
+    <p>The primary research hypothesis of the SenseS project is to explore the extent
+        to which the awareness of the effect of mental load
+        on performance is helping reflection and training.
+
+        We are testing this hypothesis with flight instructors and pilots.</p>
+    <br />
+</div>
+
+<div class="technologyClass" id="technologySection">
+
+    <br />
+
+    <h2>Technology Used</h2>
+
+    <div>
+        <p>SenseS uses Shimmer to record GSR (Galvanic Skin Response) data and
+            compute levels of mental load and an Android app (in development) to
+            pair with the Shimmer device via Bluetooth to capture GSR data. The
+            Android app provides a video of the activity the user engages with
+            as well as the real time reading of their mental load.</p>
+
+        <br /><br /><br />
+
+        <img src="../Drawables/systemArchitecture.png" height="500" width="800" alt="systemArchitecture.png"/>
     </div>
 </div>
 
-<div class="sensesInfo">
+<div class="benefitsApplicationsClass" id="benefitsSection">
+
     <br />
 
-    <h3>Business Impacts</h3> <br />
+    <h2>Benefits</h2>
+
+    <br />
+
     <p>
-        Airline data<sup><a href="https://www.atsb.gov.au/media/27818/hf_ar-2008-055.pdf" target="_blank">[1]</a></sup>
-        shows that around 50 per cent of engine-related flight delays and cancellations are due to
-        maintenance errors, costing the airline around USD $140,000 for a flight cancellation, and
-        an average of USD $17,000 per hour for delays. In many cases, it was found that the causes of
-        maintenance errors<sup><a href="https://www.casa.gov.au/sites/g/files/net351/f/_assets/main/lib100215/hf-engineers-res.pdf" target="_blank">[2]</a></sup>
-        were procedural errors (e.g. errors made in a sequence of actions as opposed to proficiency
-        errors due to lack of skills, experience and practice.)
+        People operating in high stress environments can become more aware of how their
+        cognitive load affects their decision-making and behaviour. Working with their instructor, they can use
+        SenseS to identify areas of improvement and get personalised feedback.</p>
 
-        <br /><br />
-        Surgery data goes here
-    </p>
+    <br />
+
+    <img src="../Drawables/userReview.png" height="250" width="170" alt="userReview.png" style="border:0px;margin:0px;padding-right: 200px;"/>
+    <img src="../Drawables/userTesting.png" height="250" width="170" alt="userTesting.png" style="border:0px;margin:0px;clear:both;"/>
+
     <br />
 </div>
 
-<div class="bodyDiv">
-    <div class="deviceDiv">
-        <img src="../Drawables/pilot.png" alt="image1" />
+<div id="bodyBack">
+    <br />
 
-        <br />
+    <h2>Potential Applications</h2>
 
-        <h2>Pilots</h2>
+    <div class="bodyDiv">
+        <div class="deviceDiv">
+            <img src="../Drawables/pilot.png" alt="pilot.png" />
 
-        <br />
+            <br />
 
-        <p>
-            A pilot is training in a flight simulator and during a highly stressful exercise, misses several cues that
-            could have led to a serious failure. Using SenseS's real-time display of cognitive load alongside a recorded
-            video of the session, the pilot can identify how they may have prioritised certain tasks while neglected
-            others and develop strategies to counteract any 'tunnel vision' effect adopted during the flight.
-        </p>
-    </div>
+            <h2>Pilots</h2>
 
-    <div class="researchDiv">
-        <img src="../Drawables/CarBuy1.jpeg" alt="image2" />
+            <br />
 
-        <br />
+            <p>
+                Using SenseS's real-time display of cognitive load alongside a recorded
+                video of the session, a pilot can identify how they may have prioritised certain tasks while neglected
+                others and develop strategies to counteract any 'tunnel vision' effect adopted during the flight.
+            </p>
+        </div>
 
-        <h2>Drivers</h2>
+        <div class="researchDiv">
+            <img src="../Drawables/drivingTest.jpg" alt="drivingTest.jpg" />
 
-        <br />
+            <br />
 
-        <p>
-            A learner driver is preparing for their provisional license practical exam and is using SenseS to identify
-            their performance during stressful situations on the road. After recording their drive, the user can
-            determine what maneuvers required the most cognitive effort and what events on the road caused them to make
-            dangerous decisions.
-        </p>
+            <h2>Drivers</h2>
 
-    </div>
+            <br />
 
-    <div class="testingDiv">
-        <img src="../Drawables/heavyMachinery.jpg" alt="image3"/>
+            <p>
+                Following a recording during an average drive, a driver can determine what maneuvers
+                required the most cognitive effort and what events on the road caused them to make
+                dangerous decisions.
+            </p>
 
-        <br />
+        </div>
 
-        <h2>Heavy Machinery Operators</h2>
+        <div class="testingDiv">
+            <img src="../Drawables/heavyMachinery.jpg" alt="heavyMachinery.jpg"/>
 
-        <br />
+            <br />
 
-        <p>
-            An heavy machinery operator is performing a training exercise with their adviser monitoring their
-            actions and recording the session with SenseS. At several points during the exercise, the operator
-            experiences a high cognitive load and makes several errors that could have led to costly damage to the
-            equipment. However, in the training environment and accompanied by SenseS, the adviser can use the recording
-            and cognitive load display to convey to operator what tasks caused them to react in this way so they can
-            improve their response.
-        </p>
+            <h2>Heavy Machinery Operators</h2>
 
+            <br />
+
+            <p>
+                In the training environment and accompanied by SenseS, a heavy machine operator can use the recording
+                and cognitive load display to convey to operator what tasks caused them to react differently so they can
+                improve their response.
+            </p>
+
+        </div>
     </div>
 </div>
+
+<div class="processClass" id="processSection">
+
+    <br />
+
+    <h2>The Process (Development)</h2>
+
+    <br />
+
+    <div>
+        <img src="../Drawables/process.jpg" height="1200" width="1200" alt="process.jpg"/>
+    </div>
+
+    <br />
+</div>
+
 
 <footer>
     <div id="socialSection">
@@ -181,11 +227,3 @@
 </body>
 
 </html>
-
-<!--
-ThoughtWorks Australia Pty Ltd.
-Level 8, 51 Pitt St
-Sydney NSW 2000 Australia -->
-
-
-What is the problem we're so

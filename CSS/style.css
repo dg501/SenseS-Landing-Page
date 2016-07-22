@@ -11,22 +11,25 @@
 }
 
 
-
 * {
     margin: 0;
     padding: 0;
-    font-family: Futura;
+    font-family: Futura, sans-serif;
+}
+
+p {
+    line-height: 25px;
 }
 
 footer {
     display: flex;
     height: 205px;
     background-color: #51B9DE;
-    font-family: Futura;
+    font-family: Futura, sans-serif;
 }
 
 footer p {
-    margin-top: 12.5px;
+    margin-top: 12px;
 }
 
 .deviceDiv img, .researchDiv img, .testingDiv img {
@@ -53,15 +56,14 @@ div a {
 }
 
 .video {
-    font-family: Futura;
+    font-family: Futura, sans-serif;
     background-repeat: no-repeat;
-    height: 550px;
+    height: 500px;
     background-color: white;
 }
 
 #videoContainer video {
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #buttonLinkContainer {
@@ -90,7 +92,7 @@ div a {
 #collabMessage p, #collabMessage a {
     font-size: 25px;
     color: white;
-    font-family: Futura-Bold;
+    font-family: Futura-Bold, sans-serif;
     text-decoration: none;
     text-align: center;
 }
@@ -111,7 +113,7 @@ div a {
 #researchMessage p, #researchMessage a {
     font-size: 25px;
     color: white;
-    font-family: Futura-Bold;
+    font-family: Futura-Bold, sans-serif;
     text-decoration: none;
     text-align: center;
 }
@@ -153,16 +155,16 @@ li a:hover {
 }
 
 .deviceDiv h2, .researchDiv h2, .testingDiv h2 {
-    font-family: Futura-Bold;
+    font-family: Futura-Bold, sans-serif;
     color: grey;
     font-size: 120%;
 }
 
 .deviceDiv {
-    font-family: Futura;
+    font-family: Futura, sans-serif;
 
     background-repeat: no-repeat;
-    height: 400px;
+    height: 300px;
     width: 33%;
     margin: 10px;
     text-align: center;
@@ -170,17 +172,17 @@ li a:hover {
 }
 
 .deviceDiv p, .deviceDiv a {
-    font-family: Futura;
+    font-family: Futura, sans-serif;
     color: grey;
     line-height: 25px;
     margin: 2px;
 }
 
 .researchDiv {
-    font-family: Futura;
+    font-family: Futura, sans-serif;
     
     background-repeat: no-repeat;
-    height: 400px;
+    height: 300px;
     width: 33%;
     margin: 10px;
     text-align: center;
@@ -188,17 +190,17 @@ li a:hover {
 }
 
 .researchDiv p, .researchDiv a {
-    font-family: Futura;
+    font-family: Futura, sans-serif;
     color: grey;
     line-height: 25px;
     margin: 2px;
 }
 
 .testingDiv {
-    font-family: Futura;
+    font-family: Futura, sans-serif;
     
     background-repeat: no-repeat;
-    height: 400px;
+    height: 300px;
     width: 33%;
     margin: 10px;
     text-align: center;
@@ -216,11 +218,11 @@ li a:hover {
     display: flex;
     padding: 35px;
     background-color: white;
-    height: 445px;
+    height: 400px;
 }
 
 .sensesInfo {
-    font-family: Futura;
+    font-family: Futura, sans-serif;
     text-align: center;
     align-self: center;
     width: 100%;
@@ -228,7 +230,7 @@ li a:hover {
 }
 
 .sensesInfo h3 {
-    font-family: Futura-Bold;
+    font-family: Futura-Bold, sans-serif;
     font-size: 150%;
     color: black;
 }
@@ -236,7 +238,7 @@ li a:hover {
 .sensesInfo p {
     font-size: 125%;
     line-height: 25px;
-    font-family: Futura;
+    font-family: Futura, sans-serif;
     margin-left: 100px;
     margin-right: 100px;
     color: black;
@@ -253,11 +255,11 @@ li a:hover {
 
 #headDiv {
     margin-left: 20px;
-    width: 30%
+    width: 10%
 }
 
 #twLogo {
-    margin-top: -5px;
+    margin-top: 50px;
 }
 
 #buttonDiv {
@@ -265,29 +267,20 @@ li a:hover {
     margin-top: 40px;
 }
 
-#aboutButton {
-    font-family: Futura-Bold;
-    font-size: 100%;
-}
-
-#contactButton {
-    font-family: Futura-Bold;
-    font-size: 100%;
-}
-
-#submit {
-
+#technologyButton, #overviewButton, #benefitsButton, #applicationsButton, #processButton {
+    font-family: Futura-Bold, sans-serif;
+    font-size: 105%;
 }
 
 #footerDiv {
-    font-family: Futura;
+    font-family: Futura sans-serif;
     padding: 35px;
 }
 
 #socialSection {
     width: 33%;
     margin-left: 2px;
-    font-family: Futura;
+    font-family: Futura, sans-serif;
     padding: 5px;
 }
 
@@ -300,7 +293,7 @@ li a:hover {
 #socialSection h3 {
     margin-top: 5px;
     font-weight: bold;
-    font-family: Futura-Bold;
+    font-family: Futura-Bold, sans-serif;
     color: white;
     margin-bottom: -5px;
 }
@@ -318,7 +311,7 @@ li a:hover {
 }
 
 #contactSection {
-    font-family: Futura;
+    font-family: Futura, sans-serif;
     width: 33%;
     padding: 5px;
 }
@@ -343,7 +336,7 @@ li a:hover {
 #contactSection h3 {
     margin-top: 5px;
     font-weight: bold;
-    font-family: Futura-Bold;
+    font-family: Futura-Bold, sans-serif;
     color: white;
     margin-bottom: -5px;
 }
@@ -354,7 +347,7 @@ li a:hover {
 }
 
 #quickLinks {
-    font-family: Futura;
+    font-family: Futura, sans-serif;
     width: 33%;
     padding: 5px;
 }
@@ -370,7 +363,7 @@ li a:hover {
 #quickLinks h3 {
     margin-top: 5px;
     font-weight: bold;
-    font-family: Futura-Bold;
+    font-family: Futura-Bold,sans-serif;
     color: white;
     margin-bottom: -7px;
 }
@@ -385,4 +378,142 @@ li a:hover {
     float: right;
     margin-top: -10px;
     margin-right: -1px;
+}
+
+.overviewClass {
+    background-color: #F1F2F2;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overviewClass p {
+    font-family: Futura, sans-serif;
+    width: 95%;
+    margin-left: 10px;
+}
+
+.overviewClass h2 {
+    font-family: Futura-Bold, sans-serif;
+    font-size: 125%;
+    margin-left: 10px;
+}
+
+.overviewClass img {
+    margin-right: 12px;
+    margin-left: auto;
+    margin-top: -40px;
+}
+
+#overviewShift {
+    display: flex;
+}
+
+.theTeamClass {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
+.theTeamClass p {
+    font-family: Futura, sans-serif;
+    color: grey;
+    margin-left: 40px;
+    margin-right: 12px;
+}
+
+.theTeamClass h2 {
+    font-family: Futura-Bold, sans-serif;
+    color: grey;
+    font-size: 125%;
+    margin-right: 12px;
+}
+
+.theTeamClass img {
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: -30px;
+}
+
+#teamShift {
+    display: flex;
+}
+
+.benefitsApplicationsClass {
+    background-color: #F1F2F2;
+    color: black;
+    text-align: center;
+}
+
+.benefitsApplicationsClass p {
+    font-family: Futura, sans-serif;
+    font-size: 125%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.benefitsApplicationsClass h2 {
+    font-family: Futura-Bold, sans-serif;
+    font-size: 150%;
+    text-align: center;
+}
+
+.benefitsApplicationsClass img {
+    padding-bottom: 20px;
+}
+
+.technologyClass {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.technologyClass p {
+    font-family: Futura, sans-serif;
+    color: grey;
+    padding: 50px;
+    font-size: 125%;
+    margin-top: -20px;
+}
+
+.technologyClass h2 {
+    font-family: Futura-Bold, sans-serif;
+    color: grey;
+    font-size: 150%;
+    margin-right: 12px;
+}
+
+.technologyClass img {
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+#techShift {
+    display: flex;
+}
+
+#pLink {
+    font-size: 100%;
+    color: grey;
+}
+
+#bodyBack h2 {
+    font-family: Futura-Bold, sans-serif;
+    font-size: 150%;
+    text-align: center;
+    color: grey;
+}
+
+.processClass {
+    text-align: center;
+    background-color: #F1F2F2;
+    color: grey;
+}
+
+.processClass h2 {
+    font-size: 125%;
+    font-family: Futura-Bold, sans-serif;
 }
